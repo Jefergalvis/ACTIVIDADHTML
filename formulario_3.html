@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de encuestas</title>
+</head>
+<body>
+    <h1>Formulario de encuesta</h1>
+    <div>
+        <form>
+            <label for="id">Número identificación:</label>
+            <input type="text" id="id" name="id" placeholder="Identificación" required>
+            <br>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="nombre" required>
+            <br>
+            <label for="fecha_encuesta">Fecha encuesta</label>
+            <input type="date" id="fecha_encuesta" name="fecha_encuesta" required>
+            <br>
+            <br>
+            <fieldset>
+            <label for="pregunta1">1. El PI se utiliza para:</label> <br>
+            <input type="radio" name="pregunta1" value="termografía"> Termografía -Ultrasonido <br>
+            <input type="radio" name="pregunta1" value="podas">  Podas con proximidad <br>
+            <input type="radio" name="pregunta1" value="obra">  Obra Civil con cercanía de circuitos energizados  <br>
+            <br>
+            <label for="pregunta2">2. Para viabilizar y gestionar un PDL -ID- PI, se debe contar con :</label> <br>
+            <input type="radio" name="pregunta2" value="planeacion">Planeación Segura <br>
+            <input type="radio" name="pregunta2" value="aro">Análisis de Interferencias y Aro <br>
+            <br>
+            <label for="pregunta3">3. La Planeación segura, debo Participar y  revisar como parte del equipo de trabajo HSEQ :</label> <br>
+            <input type="radio" name="pregunta2" value="si">Sí <br>
+            <input type="radio" name="pregunta2" value="no">No <br>
+            <br>
+            <label for="cargue">Cargar soporte carnet:</label>
+            <input type="file" name="cargue" required>
+            </fieldset>
+            
+        </form>
+    </div>
+    <br>
+     <a href="index.html"><img src="imagenes/iconovolver.png"width="50" height="30"></a>
+</body>
+</html>

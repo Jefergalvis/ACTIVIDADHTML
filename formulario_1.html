@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 1</title>
+</head>
+<body>
+    <h1>Formulario registro</h1>
+    <div>
+        <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingresa el nombre" required>
+        <br/>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingresa el apellido" required>
+        <br/>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" placeholder="Ingresa la edad" required>
+        <br/>
+        <label for="sexo">Sexo:</label> <br>
+        <input type="radio" name="sexo" value="masculino"> Masculino <br>
+        <input type="radio" name="sexo" value="femenino"> Femenino <br>
+        <input type="radio" name="sexo" value="otro"> Otro <br>
+        <label for="estudio">Nivel Estudio:</label>
+        <select id="estudio" name="estudio">
+            <option value="primaria">Primario</option>
+            <option value="secundaria">Secundaria</option>
+            <option value="profesional">Profesional</option>
+            <option value="especialista">Especialista</option>
+          </select>
+          <br><br>
+          <label for="usuario">Usuario:</label>
+          <input type="text" id="usuario" name="usuario" placeholder="Ingresa el usuario"required>
+          <br>
+          <label for="contrasena">Contraseña:</label>
+          <input type="password" id="contrasena" name="contrasena"required>
+          <br>
+          <button type="button">Enviar</button>
+        </form>
+        <br>
+     <a href="index.html"><img src="imagenes/iconovolver.png"width="50" height="30"></a>
+    </div> 
+       
+</body>
+</html>
