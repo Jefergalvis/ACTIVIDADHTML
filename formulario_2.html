@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
     <title>Formulario 2</title>
 </head>
 <body>
-    <h1>Formulario compra</h1>
+    <h1 class="titulo1">Formulario compra</h1>
     <div>
         <form>
-            <fieldset>
-            <legend>Información personal</legend>
+            <fieldset class="estilofieldset">
+            <legend class="ifp">Información personal</legend>
            <label for="id">Identificación: </label> 
            <input type="text" id="id" name="id" placeholder="Ingrese su identificación" required>
            <br>
@@ -25,16 +23,16 @@
            <input type="telefono" id="telefono" name="telefono" placeholder="Ingresa su # Teléfono" required>
            <br>         
         </fieldset>
-        <fieldset>
-            <legend>Información dirección</legend>
+        <fieldset class="estilofieldset">
+            <legend class="ifp">Información dirección</legend>
            <label for="direccion">Dirección entrega: </label> 
            <textarea  id="direccion" name="direccion" placeholder="dirección" required></textarea>
            <br> 
            <label for="codpostal">Código postal:</label>
            <input type="text" id="codpostal" name="codpostal" placeholder="Ingresa código Postal" required>
         </fieldset>
-        <fieldset>
-            <legend>Información tarjeta</legend>
+        <fieldset class="estilofieldset">
+            <legend class="ifp">Información tarjeta</legend>
             <label for="card">Selecciones la tarjeta</label>
             <input type="radio" name="card" value="mastercard"><img src="imagenes/mastercard.png" height="70" width="100">
             <input type="radio" name="card" value="visa"><img src="imagenes/visa.png" height="70" width="100">

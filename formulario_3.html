@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
     <title>Formulario de encuestas</title>
 </head>
 <body>
-    <h1>Formulario de encuesta</h1>
+    <h1 class="titulo1">Formulario de encuesta</h1>
     <div>
-        <form>
+        <form class="ingreso">
             <label for="id">Número identificación:</label>
             <input type="text" id="id" name="id" placeholder="Identificación" required>
             <br>
@@ -20,7 +18,8 @@
             <input type="date" id="fecha_encuesta" name="fecha_encuesta" required>
             <br>
             <br>
-            <fieldset>
+            <fieldset class="estilofieldset">
+            <legend class="ifp">Evaluación</legend>
             <label for="pregunta1">1. El PI se utiliza para:</label> <br>
             <input type="radio" name="pregunta1" value="termografía"> Termografía -Ultrasonido <br>
             <input type="radio" name="pregunta1" value="podas">  Podas con proximidad <br>
